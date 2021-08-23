@@ -1,1 +1,71 @@
-/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  background: linear-gradient(90deg, #020024 0%, #79092b 0%, #00d4ff 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins", "Arial";
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.conteiner {
+  width: 1000px;
+  height: 400px;
+  background: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+#formulario {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formulario__h2 {
+  font-size: 25px;
+}
+
+.formulario__label {
+  font-weight: bold;
+}
+
+.formulario__input {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px;
+}
+
+.formulario__texto {
+  padding: 5px 5px;
+  height: 30px;
+  font-size: 17px;
+}
+
+.boton {
+  border: none;
+  color: white;
+  padding: 10px 5px;
+  width: 80px;
+  position: relative;
+  top: 30px;
+  background-color: #008CBA;
+  transition: 0.5s;
+}
+
+.boton:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.listado {
+  height: 100%;
+  width: 50%;
+}/*# sourceMappingURL=style.css.map */

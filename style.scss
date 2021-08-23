@@ -1,0 +1,92 @@
+//Globales
+$flex-column: column;
+$flex-row: row;
+//Body
+$body-backgroud: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(121, 9, 43, 1) 0%, rgba(0, 212, 255, 1) 100%);
+$h1-font-size: 40px;
+$h2-font-size: 25px;
+$body-font-family: 'Poppins',
+'Arial';
+//Conteiner
+$conteiner-width: 1000px;
+$conteiner-height: 400px;
+$conteiner-backgroud: white;
+$conteiner-radius: 10px;
+//Formulario
+$form-width: 50%;
+$form-height: 100%;
+//Formulario Input
+$input-width: 80%;
+//Formulario Boton
+$boton-background: #008CBA;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    background: $body-backgroud;
+    display: flex;
+    flex-direction: $flex-column;
+    align-items: center;
+    font-family: $body-font-family;
+}
+
+h1 {
+    font-size: $h1-font-size;
+}
+
+.conteiner {
+    width: $conteiner-width;
+    height: $conteiner-height;
+    background: $conteiner-backgroud;
+    border-radius: $conteiner-radius;
+    display: flex;
+    flex-direction: $flex-row;
+}
+
+#formulario {
+    height: $form-height;
+    width: $form-width;
+    display: flex;
+    flex-direction: $flex-column;
+    align-items: center;
+}
+
+.formulario__h2 {
+    font-size: $h2-font-size;
+}
+
+.formulario__label {
+    font-weight: bold;
+}
+
+.formulario__input {
+    width: $input-width;
+    display: flex;
+    flex-direction: $flex-column;
+    margin: 10px 0px;
+}
+
+.formulario__texto {
+    padding: 5px 5px;
+    height: 30px;
+    font-size: 17px;
+}
+
+.boton {
+    border: none;
+    color: white;
+    padding: 10px 5px;
+    width: 80px;
+    position: relative;
+    top: 30px;
+    background-color: $boton-background;
+    transition: 0.5s;
+}
+
+.boton:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.listado {
+    height: 100%;
+    width: 50%;
+}
