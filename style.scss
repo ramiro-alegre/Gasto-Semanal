@@ -159,8 +159,10 @@ h1 {
 
 .listado__resto--mitad {
     $resto-color: #FCF0C7;
+    background-color: $resto-color;
 }
 
 .listado__resto--cero {
     $resto-color: #F2CDD2;
+    background-color: $resto-color;
 }
