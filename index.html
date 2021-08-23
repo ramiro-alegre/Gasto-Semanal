@@ -10,7 +10,34 @@
 </head>
 
 <body>
+    <h1>Gasto semanal</h1>
+    <div class="conteiner__all">
+        <form action="#" id="formulario">
+            <h2>Añade tus gastos</h2>
+            <div class="conteiner__input">
+                <label for="nombre">Gasto:</label><input type="text" id="nombre" name="Nombre">
+            </div>
+            <div class="conteiner__input">
+                <label for="cantidad">Cantidad:</label> <input type="text" name="Cantidad" id="cantidad">
+            </div>
+            <div class="conteiner__button">
+                <button type="submit">Agregar</button>
+            </div>
+        </form>
 
+        <div class="conteiner__listado">
+            <h2>Listado</h2>
+            <div class="conteiner__listado--presupuestos">
+                <div class="conteiner__listado--presupuesto">
+                    Presupuesto: $800
+                </div>
+                <div class="conteiner__listado--resto">
+                    Restante: $800
+                </div>
+            </div>
+        </div>
+
+    </div>
 </body>
 <script src="script.js"></script>
 
