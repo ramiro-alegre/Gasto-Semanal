@@ -139,4 +139,30 @@ h1 {
 
 .listado__resto--cero {
   background-color: #F2CDD2;
+}
+
+@media (max-width: 1050px) {
+  .conteiner {
+    width: 700px;
+  }
+}
+@media (max-width: 750px) {
+  .conteiner {
+    width: 500px;
+    flex-direction: column;
+  }
+
+  #formulario {
+    width: 100%;
+  }
+
+  .listado {
+    width: 100%;
+  }
+}
+@media (max-width: 550px) {
+  .conteiner {
+    width: 350px;
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=style.css.map */

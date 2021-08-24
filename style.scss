@@ -170,3 +170,34 @@ h1 {
     $resto-color: #F2CDD2;
     background-color: $resto-color;
 }
+
+@media (max-width: 1050px) {
+    $conteiner-width: 700px;
+    .conteiner {
+        width: $conteiner-width;
+    }
+}
+
+@media (max-width: 750px) {
+    $conteiner-width: 500px;
+    $form-width: 100%;
+    $listado-width: 100%;
+    .conteiner {
+        width: $conteiner-width;
+        flex-direction: $flex-column;
+    }
+    #formulario {
+        width: $form-width;
+    }
+    .listado {
+        width: $listado-width;
+    }
+}
+
+@media (max-width: 550px) {
+    $conteiner-width: 350px;
+    .conteiner {
+        width: $conteiner-width;
+        flex-direction: $flex-column;
+    }
+}
