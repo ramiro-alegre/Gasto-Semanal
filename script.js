@@ -7,11 +7,10 @@ class Presupuesto {
     constructor(presupuesto) {
         this.presupuesto = Number(presupuesto);
         this.restante = Number(presupuesto);
-        this.gastos = [];
     }
 
     modificarRestante(gasto) {
-        this.gastos.push(gasto);
+
         this.restante = this.restante - gasto;
         return this.restante;
     }
@@ -141,5 +140,5 @@ function agregarGasto(e) {
     ui.modificarResto(resto);
     ui.validarPresupuesto(resto);
 
-
+    formulario.reset();
 }
