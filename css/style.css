@@ -64,6 +64,10 @@ h1 {
   transition: 0.5s;
 }
 
+.boton__out {
+  background-color: red;
+}
+
 .boton:hover {
   color: black;
   cursor: pointer;
